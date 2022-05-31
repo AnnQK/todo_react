@@ -1,0 +1,23 @@
+.task-form {
+    padding: 25px 0 35px 0;
+    display: flex;
+    align-items: center;
+}
+
+.task-input {
+    padding-left: 15px;
+    margin-right: 10px;
+    width: 520px;
+    height: 45px;
+    background-color: #F3F3F3;
+    font-size: 20px;
+    color: #B5B5B5;
+    border: none;
+    border-radius: 8px;
+    outline-color: #B5B5B5;
+}
+
+.invalid input {
+    border: 1px solid #EA5959;
+    outline-color: #EA5959;
+}

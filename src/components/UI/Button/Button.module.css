@@ -1,0 +1,82 @@
+.button {
+    border: solid 1px #EA5959;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.checkbox-btn {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    transition: 0;
+}
+
+.checkbox-btn svg {
+    height: 5px;
+    width: 5px;
+    transition: 700ms;
+    fill: transparent;
+}
+
+.checkbox-btn:hover {
+    border: none;
+}
+
+.checkbox-btn:hover svg {
+    height: 35px;
+    width: 35px;
+    fill: #EA5959;
+}
+
+.category-btn {
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #EA5959;
+}
+
+.trash-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+}
+
+.trash-btn svg {
+    width: 20px;
+    height: 20px;
+    stroke: #EA5959;
+    fill: transparent;
+    transition: 500ms;
+}
+
+.trash-btn:hover {
+    background: #F3F3F3;
+
+}
+
+/* .trash-btn:hover svg {
+    height: 30px;
+    width: 30px;
+} */
+
+.add-btn {
+    width: 45px;
+    height: 45px;
+    background-color: #B5B5B5;
+    border-color: #B5B5B5;
+
+}
+
+.add-btn:hover {
+    background-color: #EA5959;
+    border-color: #EA5959;
+
+}
+
+.add-btn svg {
+    stroke: #fff;
+    padding: 4px 0 0 2px;
+}
