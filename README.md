@@ -2,7 +2,7 @@
 ### [DEMO](https://annqk.github.io/todo_react/)
 ---
 #### Technologies: 
-- React (react-hooks: redusers, state, context)
+- React (react-hooks: reducers, state, context)
 - Css Modules
 ## Features:
 - **Adding / Removing tasks**
